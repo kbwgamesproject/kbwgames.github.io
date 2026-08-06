@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KBW Games</title>
+    <style>
+        /* Estilos Globais */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+        }
+
+        /* Tabela Principal (Estrutura do Site) */
+        table.layout-container {
+            width: 100%;
+            max-width: 960px;
+            margin: 0 auto;
+            border-collapse: collapse;
+            background-color: #1e1e1e;
+        }
+
+        td {
+            padding: 15px;
+            text-align: center;
+        }
+
+        /* Logo */
+        .logo-img {
+            max-width: 200px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        /* Título */
+        h2 {
+            margin: 10px 0 5px 0;
+            color: #ffffff;
+            font-size: 28px;
+        }
+
+        /* Menu de Navegação */
+        .nav-container {
+            border-top: 1px solid #333;
+            border-bottom: 1px solid #333;
+            padding: 10px;
+        }
+
+        .btn-nav {
+            display: inline-block;
+            background-color: #000000;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 12px 24px;
+            margin: 5px;
+            font-size: 16px;
+            font-weight: bold;
+            border: 2px solid #000000;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, border-color 0.3s ease;
+            box-sizing: border-box;
+        }
+
+        /* Efeito de passar o mouse (Hover) */
+        .btn-nav:hover {
+            background-color: #ffcc00;
+            border-color: #ffcc00;
+            color: #ffffff;
+            text-shadow: 1px 1px 2px #000000; /* Melhora a leitura do texto branco no fundo amarelo */
+        }
+
+        /* Efeito ao Clicar (Active) */
+        .btn-nav:active {
+            background-color: #e6b800;
+            border-color: #e6b800;
+            color: #ffffff;
+        }
+
+        /* Área do Conteúdo Principal */
+        .content-area {
+            min-height: 400px;
+            text-align: left;
+            vertical-align: top;
+            padding: 30px 20px;
+            line-height: 1.6;
+        }
+
+        /* Rodapé */
+        .footer-area {
+            background-color: #121212;
+            border-top: 1px solid #333;
+            font-size: 14px;
+            color: #aaa;
+        }
+
+        /* Ajustes para Telas Menores (Mobile Friendly) */
+        @media (max-width: 600px) {
+            .btn-nav {
+                display: block;
+                width: 100%;
+                margin: 5px 0;
+            }
+            
+            .content-area {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Tabela Principal de Layout -->
+    <table class="layout-container" role="presentation">
+        
+        <!-- Linha do Cabeçalho (Logo e Título) -->
+        <tr>
+            <td>
+                <a href="index.html">
+                    <img src="images/kbwgames.png" alt="KBW Games Logo" class="logo-img">
+                </a>
+                <h2>KBW Games</h2>
+            </td>
+        </tr>
+
+        <!-- Linha do Menu de Botões -->
+        <tr>
+            <td class="nav-container">
+                <a href="jogos.html" class="btn-nav">Jogos</a>
+                <a href="downloads.html" class="btn-nav">Downloads</a>
+                <a href="projetos.html" class="btn-nav">Projetos</a>
+                <a href="sobre.html" class="btn-nav">Sobre</a>
+            </td>
+        </tr>
+
+        <!-- Linha do Conteúdo Principal -->
+        <tr>
+            <td class="content-area">
+                <!-- INSIRA O CONTEÚDO DA PÁGINA AQUI -->
+                <h3>Bem-vindo ao KBW Games</h3>
+                <p></p>
+            </td>
+        </tr>
+
+        <!-- Linha do Rodapé -->
+        <tr>
+            <td class="footer-area">
+                <p><strong>Contato KBW Games:</strong> flaviomlmelo1503@gmail.com</p>
+                <p>&copy; 2026 KBW Games - Todos os direitos reservados.</p>
+            </td>
+        </tr>
+
+    </table>
+
+</body>
+</html>
